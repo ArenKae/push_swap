@@ -6,7 +6,7 @@
 /*   By: acosi <acosi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 20:30:39 by acosi             #+#    #+#             */
-/*   Updated: 2023/05/20 07:58:02 by acosi            ###   ########.fr       */
+/*   Updated: 2023/05/20 16:58:16 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,16 +81,15 @@ void	check_args(int argc, char **argv)
 	while (args[i])
 	{
 		tmp = ft_atoi(args[i]);
-		if (is_num(args[i]) == false)
+		if (is_num(args[i]) == false || is_overflow(tmp, args[i]) == true
+			|| duplicates(tmp, args, i) == true)
+		{
+			if (argc == 2)
+				free_array(args);
 			exit_error();
-		if (is_overflow(tmp, args[i]) == true)
-			exit_error();
-		if (duplicates(tmp, args, i) == true)
-			exit_error();
+		}
 		i++;
 	}
-	if (argc == 2)
-		free_array(args);
 }
 
 // Check if the arguments are already sorted.
