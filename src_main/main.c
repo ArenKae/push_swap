@@ -6,7 +6,7 @@
 /*   By: acosi <acosi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 19:16:48 by acosi             #+#    #+#             */
-/*   Updated: 2023/05/20 08:13:52 by acosi            ###   ########.fr       */
+/*   Updated: 2023/05/20 08:39:17 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ int	create_nodes(t_tree *root, int size, char **args)
 initialize stack_a depending on how the arguments are
 passed to the executable. free_array() returns 0 and is used to both
 free args from any leaks and as a return value to indicate if the 
-init_stack() function executed correctly or not. */
+init_stack() function executed incorrectly. */
 
 int	init_stack(t_tree *root, int ac, char **av)
 {
@@ -73,8 +73,9 @@ int	init_stack(t_tree *root, int ac, char **av)
 			return (free_array(args));
 		if (!create_nodes(root, j, args))
 			return (free_array(args));
+		free_array(args);
 	}
-	return (!(free_array(args)));
+	return (1);
 }
 
 int	main(int ac, char **av)
