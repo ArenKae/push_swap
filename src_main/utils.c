@@ -6,7 +6,7 @@
 /*   By: acosi <acosi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 10:43:07 by acosi             #+#    #+#             */
-/*   Updated: 2023/05/20 08:00:40 by acosi            ###   ########.fr       */
+/*   Updated: 2023/05/20 17:13:32 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int	free_array(char **args)
 
 void	exit_error(void)
 {
-	ft_putendl_fd("Error", 1);
+	ft_putendl_fd("Error", 2);
 	exit(0);
 }
 
