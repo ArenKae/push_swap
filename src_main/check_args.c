@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   check_args.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acosi <acosi@student.42nice.fr>            +#+  +:+       +#+        */
+/*   By: acosi <acosi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 20:30:39 by acosi             #+#    #+#             */
-/*   Updated: 2023/05/20 17:19:28 by acosi            ###   ########.fr       */
+/*   Updated: 2025/03/19 08:02:07 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,6 +90,7 @@ void	check_args(int argc, char **argv)
 		}
 		i++;
 	}
+	free_array(args);
 }
 
 // Check if the arguments are already sorted.
