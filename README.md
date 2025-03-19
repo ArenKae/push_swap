@@ -25,7 +25,7 @@ or
 
 - The numbers provided can be positive or negative integers. There must not be any duplicates.
 
--If the arguments are valid, the program will output the most efficient list of actions to sort the list.
+- If the arguments are valid, the program will output the most efficient list of actions to sort the list.
 
 - The program can be checked with the provided checker, like this :
 
@@ -36,7 +36,7 @@ ARG="3 0 9 2 -1"; ./push_swap $ARG | ./checker $ARG
 
 You can also simply ```make test3```, ```make test5```, ```make test100``` or ```make test500``` to quickly test the program with that number of values to sort.
 
-You can visualize this push_swap algorithm in action with [O-reo's push_swap visualizer](https://github.com/o-reo/push_swap_visualizer):
+You can visualize this push_swap algorithm in action with [O-reo's push_swap visualizer](https://github.com/o-reo/push_swap_visualizer ):
 
 ## Push_Swap Rules and Grading
 
