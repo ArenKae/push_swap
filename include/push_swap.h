@@ -6,14 +6,14 @@
 /*   By: acosi <acosi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 18:57:53 by acosi             #+#    #+#             */
-/*   Updated: 2025/03/20 21:57:49 by acosi            ###   ########.fr       */
+/*   Updated: 2025/03/20 22:12:04 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
-# include "../libft/libft.h"
+# include "../src/libft/libft.h"
 # include <stdlib.h>
 # include <stdbool.h>
 # include <limits.h>

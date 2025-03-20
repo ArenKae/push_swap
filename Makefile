@@ -67,9 +67,9 @@ $(OBJ_DIR)%.o : $(ALGO_DIR)%.c $(INCLUDE) | $(OBJF)
 
 # Compiling all objets files (.o) to a file "NAME" :
 $(NAME) : $(MAIN_OBJ) $(UTILS_OBJ) $(INST_OBJ) $(ALGO_OBJ)
-	@$(MAKE) -C ./libft
+	@$(MAKE) -C ./src/libft
 	@echo "$(CYAN)libft compiled!$(DEF_COLOR)"
-	@$(CC) $(CFLAGS) $^ ./libft/libft.a -o $@
+	@$(CC) $(CFLAGS) $^ ./src/libft/libft.a -o $@
 	@echo "$(GREEN)-> push_swap compiled!$(DEF_COLOR)"
 
 ### RULES ###
@@ -78,7 +78,7 @@ all : $(NAME)
 
 clean :
 	@echo "$(YELLOW)Cleaning libft... $(DEF_COLOR)"
-	@$(MAKE) -C ./libft fclean
+	@$(MAKE) -C ./src/libft fclean
 	@echo "$(BLUE)libft files cleaned!$(DEF_COLOR)"
 	@rm -rf $(OBJ_DIR)
 	@rm -rf $(MAIN:.c=.o)
