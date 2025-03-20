@@ -34,11 +34,12 @@ or
 ```shell
 ARG="3 0 9 2 -1"; ./push_swap $ARG | ./checker $ARG
 ```
-> **_NOTE:_**  You might need to make the checker executable for it to work. Use ```sudo chmod +x checker```
+> [!NOTE]
+> You might need to make the checker executable for it to work. Use ```sudo chmod +x checker```
 
-You can also simply use ```make test``` to quickly test the program with a large number of random values to sort. The "NBR" value can be edited in the Makefile to change the number of generated values in this test.
-
-You can visualize this push_swap algorithm in action with [O-reo's push_swap visualizer](https://github.com/o-reo/push_swap_visualizer ):
+> [!TIPS]
+> You can also simply use ```make test``` to quickly test the program with a large number of random values to sort. The "NBR" value can be edited in the Makefile to change the number of generated values in this test.
+> You can visualize this push_swap algorithm in action with [O-reo's push_swap visualizer](https://github.com/o-reo/push_swap_visualizer ):
 
 ## Push_Swap Rules and Grading
 
