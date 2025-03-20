@@ -90,8 +90,8 @@ fclean : clean
 re :	fclean all
 	@echo "$(CYAN)Cleaned and rebuilt everything for push_swap!$(DEF_COLOR)"
 
-test100:			$(NAME)	
-					$(eval ARG = $(shell shuf -i 0-5000 -n 10))
-					./push_swap $(ARG) | ./checker_linux $(ARG)
+test:			$(NAME)	
+					$(eval ARG = $(shell shuf -i 0-5000 -n 1000 | tr '\n' ' '))
+					./push_swap $(ARG) | ./checker $(ARG)
 					@echo -n "Instructions: "
 					@./push_swap $(ARG) | wc -l
