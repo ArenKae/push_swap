@@ -96,3 +96,5 @@ test:			$(NAME)
 					./push_swap $(ARG) | ./checker $(ARG)
 					@echo -n "Instructions: "
 					@./push_swap $(ARG) | wc -l
+
+.PHONY: all clean fclean re test
