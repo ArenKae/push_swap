@@ -7,7 +7,9 @@
 Push_swap is an algorithm project where we must sort a given list of random numbers with a limited set of instructions, using the lowest possible number of actions.
 
 ## Status
-Finished 19/05/2023. Grade: 86%
+✅ Completed on: 19/05/2023
+</br>
+🏆 Grade: 86/100
 
 ## Usage
 
