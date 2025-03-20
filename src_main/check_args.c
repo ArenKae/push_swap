@@ -6,7 +6,7 @@
 /*   By: acosi <acosi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 20:30:39 by acosi             #+#    #+#             */
-/*   Updated: 2025/03/19 08:02:07 by acosi            ###   ########.fr       */
+/*   Updated: 2025/03/20 07:29:05 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,7 +90,8 @@ void	check_args(int argc, char **argv)
 		}
 		i++;
 	}
-	free_array(args);
+	if (argc == 2)
+		free_array(args);
 }
 
 // Check if the arguments are already sorted.
