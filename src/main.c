@@ -6,11 +6,11 @@
 /*   By: acosi <acosi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 19:16:48 by acosi             #+#    #+#             */
-/*   Updated: 2025/03/20 09:05:44 by acosi            ###   ########.fr       */
+/*   Updated: 2025/03/20 21:44:12 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../include/push_swap.h"
 
 /* Initialize the stack_a by creating a new_node for each
 argument passed to the executable. */

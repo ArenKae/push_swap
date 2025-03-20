@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   swap.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acosi <acosi@student.42nice.fr>            +#+  +:+       +#+        */
+/*   By: acosi <acosi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 13:04:36 by acosi             #+#    #+#             */
-/*   Updated: 2023/05/15 00:25:48 by acosi            ###   ########.fr       */
+/*   Updated: 2025/03/20 21:42:01 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../../include/push_swap.h"
 
 void	swap(t_stack *stack)
 {

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   sort_utils.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acosi <acosi@student.42nice.fr>            +#+  +:+       +#+        */
+/*   By: acosi <acosi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 06:03:47 by acosi             #+#    #+#             */
-/*   Updated: 2023/05/18 06:45:44 by acosi            ###   ########.fr       */
+/*   Updated: 2025/03/20 21:41:52 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../../include/push_swap.h"
 
 /* For i varying from 0 to the total number of chunks, this function
 pushes every number from a to b, chunk by chunk. As a result, everything

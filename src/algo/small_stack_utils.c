@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   small_stack_utils.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acosi <acosi@student.42nice.fr>            +#+  +:+       +#+        */
+/*   By: acosi <acosi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/10 11:31:05 by acosi             #+#    #+#             */
-/*   Updated: 2023/05/20 17:19:52 by acosi            ###   ########.fr       */
+/*   Updated: 2025/03/20 21:41:43 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../../include/push_swap.h"
 
 /* Parse stack_a to find the biggest/lowest number on the list. The value of
 the result is stored in the 2nd argument of the function via a pointer. The

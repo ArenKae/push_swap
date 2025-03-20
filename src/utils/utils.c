@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acosi <acosi@student.42nice.fr>            +#+  +:+       +#+        */
+/*   By: acosi <acosi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 10:43:07 by acosi             #+#    #+#             */
-/*   Updated: 2023/05/20 17:20:12 by acosi            ###   ########.fr       */
+/*   Updated: 2025/03/20 21:42:18 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../../include/push_swap.h"
 
 // Free an entire array of strings.
 

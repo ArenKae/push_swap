@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   small_stack.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acosi <acosi@student.42nice.fr>            +#+  +:+       +#+        */
+/*   By: acosi <acosi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/10 11:23:43 by acosi             #+#    #+#             */
-/*   Updated: 2023/05/20 17:19:57 by acosi            ###   ########.fr       */
+/*   Updated: 2025/03/20 21:41:49 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../../include/push_swap.h"
 
 // Simply swap stack_a to sort a list of 2 numbers.
 

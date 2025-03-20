@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   rotate.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acosi <acosi@student.42nice.fr>            +#+  +:+       +#+        */
+/*   By: acosi <acosi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/10 10:40:51 by acosi             #+#    #+#             */
-/*   Updated: 2023/05/15 00:29:05 by acosi            ###   ########.fr       */
+/*   Updated: 2025/03/20 21:41:59 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../../include/push_swap.h"
 
 void	rotate(t_stack *stack, bool is_reverse)
 {

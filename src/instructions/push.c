@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   push.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acosi <acosi@student.42nice.fr>            +#+  +:+       +#+        */
+/*   By: acosi <acosi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/10 10:30:55 by acosi             #+#    #+#             */
-/*   Updated: 2023/05/15 00:24:54 by acosi            ###   ########.fr       */
+/*   Updated: 2025/03/20 21:41:57 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../../include/push_swap.h"
 
 void	push(t_stack *src, t_stack *dest)
 {

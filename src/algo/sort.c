@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   sort.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acosi <acosi@student.42nice.fr>            +#+  +:+       +#+        */
+/*   By: acosi <acosi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/10 11:15:40 by acosi             #+#    #+#             */
-/*   Updated: 2023/05/20 17:20:01 by acosi            ###   ########.fr       */
+/*   Updated: 2025/03/20 21:44:45 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../../include/push_swap.h"
 
 // 1. Push every number to stack_b by chunk in ascending order.
 // 2. Push the last remaining chunk from a to b.

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   chunks.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acosi <acosi@student.42nice.fr>            +#+  +:+       +#+        */
+/*   By: acosi <acosi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 00:49:55 by acosi             #+#    #+#             */
-/*   Updated: 2023/05/20 17:20:08 by acosi            ###   ########.fr       */
+/*   Updated: 2025/03/20 21:42:13 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../../include/push_swap.h"
 
 /* This function fills the array with pointers to the elements from stack_a 
 that belong to the current chunk, skiping any element which was already assigned 

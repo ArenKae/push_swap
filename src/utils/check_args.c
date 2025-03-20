@@ -6,11 +6,11 @@
 /*   By: acosi <acosi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 20:30:39 by acosi             #+#    #+#             */
-/*   Updated: 2025/03/20 07:29:05 by acosi            ###   ########.fr       */
+/*   Updated: 2025/03/20 21:42:09 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../../include/push_swap.h"
 
 // Check if the argument is a number.
 

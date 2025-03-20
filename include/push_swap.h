@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acosi <acosi@student.42nice.fr>            +#+  +:+       +#+        */
+/*   By: acosi <acosi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 18:57:53 by acosi             #+#    #+#             */
-/*   Updated: 2023/05/20 17:20:16 by acosi            ###   ########.fr       */
+/*   Updated: 2025/03/20 21:57:49 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
-# include "libft/libft.h"
+# include "../libft/libft.h"
 # include <stdlib.h>
 # include <stdbool.h>
 # include <limits.h>
