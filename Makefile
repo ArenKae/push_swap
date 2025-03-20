@@ -16,6 +16,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra -Werror -ggdb3
 INCLUDE = push_swap.h
 OBJF = .cache_exists
+NBR = 1000		# Change the number of elements to sort in 'make test'
 
 # Directories
 MAIN_DIR = src_main/
@@ -91,7 +92,7 @@ re :	fclean all
 	@echo "$(CYAN)Cleaned and rebuilt everything for push_swap!$(DEF_COLOR)"
 
 test:			$(NAME)	
-					$(eval ARG = $(shell shuf -i 0-5000 -n 1000 | tr '\n' ' '))
+					$(eval ARG = $(shell shuf -i 0-5000 -n $(NBR) | tr '\n' ' '))
 					./push_swap $(ARG) | ./checker $(ARG)
 					@echo -n "Instructions: "
 					@./push_swap $(ARG) | wc -l
