@@ -34,7 +34,7 @@ ARG="3 0 9 2 -1"; ./push_swap $ARG | ./checker $ARG
 ```
 > **_NOTE:_**  You might need to make the checker executable for it to work. Use ```sudo chmod +x checker```
 
-You can also simply ```make test3```, ```make test5```, ```make test100``` or ```make test500``` to quickly test the program with that number of values to sort.
+You can also simply ```make test```, ```make test5```, ```make test100``` or ```make test500``` to quickly test the program with that number of values to sort.
 
 You can visualize this push_swap algorithm in action with [O-reo's push_swap visualizer](https://github.com/o-reo/push_swap_visualizer ):
 

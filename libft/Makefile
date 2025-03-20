@@ -18,7 +18,7 @@ NAME = libft.a
 HEADER = libft.h
 OBJ_DIR = obj/
 OBJF = .cache_exists
-SRC = 	ft_isdigit.c ft_strlen.c ft_putendl_fd.c ft_split.c ft_atoi.c \
+SRC = 	ft_isdigit.c ft_strlen.c ft_putendl_fd.c ft_putstr_fd.c ft_split.c ft_atoi.c \
 
 # Object files :
 OBJ = $(addprefix $(OBJ_DIR), $(SRC:.c=.o))

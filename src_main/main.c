@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acosi <acosi@student.42nice.fr>            +#+  +:+       +#+        */
+/*   By: acosi <acosi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 19:16:48 by acosi             #+#    #+#             */
-/*   Updated: 2023/05/20 17:20:10 by acosi            ###   ########.fr       */
+/*   Updated: 2025/03/20 09:05:44 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,8 +82,16 @@ int	main(int ac, char **av)
 {
 	t_tree	root;
 
-	if (ac < 2)
-		return (0);
+	if (ac < 3)
+	{
+		if (ac == 1)
+			return (0);
+		else
+		{
+			ft_putstr_fd("Nothing to sort.\n", 1);	
+			return (0);
+		}
+	}
 	check_args(ac, av);
 	if (is_sorted(ac, av) == true)
 		return (0);
