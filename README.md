@@ -27,7 +27,7 @@ or
 
 - If the arguments are valid, the program will output the most efficient list of actions to sort the list.
 
-- The program can be checked with the provided checker, like this :
+- We can check that program's output is correct with the checker provided by 42 :
 
 ```shell
 ARG="3 0 9 2 -1"; ./push_swap $ARG | ./checker $ARG
