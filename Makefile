@@ -88,13 +88,13 @@ fclean : clean
 	@rm -rf $(NAME)
 	@echo "$(BLUE)push_swap executable files cleaned!$(DEF_COLOR)"
 
-re :	fclean all
+re : fclean all
 	@echo "$(CYAN)Cleaned and rebuilt everything for push_swap!$(DEF_COLOR)"
 
-test:			$(NAME)	
-					$(eval ARG = $(shell shuf -i 0-5000 -n $(NBR) | tr '\n' ' '))
-					./push_swap $(ARG) | ./checker $(ARG)
-					@echo -n "Instructions: "
-					@./push_swap $(ARG) | wc -l
+test: $(NAME)	
+	$(eval ARG = $(shell shuf -i 0-5000 -n $(NBR) | tr '\n' ' '))
+	./push_swap $(ARG) | ./checker $(ARG)
+	@echo -n "Instructions: "
+	@./push_swap $(ARG) | wc -l
 
 .PHONY: all clean fclean re test
