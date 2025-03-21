@@ -77,4 +77,5 @@ The grade depends on how efficient the program's sorting process is.
   * 2 points for less than 10000
   * 1 point for less than 11500
 
-  Validating the project requires at least 80/100.
+> [!NOTE]
+> Validating the project requires at least 80/100.
