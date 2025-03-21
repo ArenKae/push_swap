@@ -13,9 +13,7 @@ Push_swap is an algorithm project where we must sort a given list of random numb
 
 ## Usage
 
-Git clone the repository and cd into it. Then use ```make``` to compile.
-
-Then run it with :
+Clone the repository, `cd` into it, and use `make` to compile. Then, run the program with :
 
 ```shell
 ./push_swap <nbr 1> <nbr 2> <nbr 3> ... <nbr n>
